@@ -11,3 +11,8 @@ p {
     font-family: verdana;
     font-size: 20px;
 }
+
+#para1 {
+    text-align: center;
+    color: green;
+  }
