@@ -1,32 +1,8 @@
 body {
-    background-color: lightblue;
+    background-color: linen;
 }
 
 h1 {
-    color: white;
-    text-align: center;
-}
-
-p {
-    font-family: verdana;
-    font-size: 20px;
-}
-
-#para1 {
-    text-align: center;
-    color: green;
-}
-
-p.center {
-    text-align: center;
-    color: red;
-}
-
-p.large {
-    font-size: 300%;
-}
-
-h1, h2, p {
-    text-align: center;
-    color: red;
+    color: maroon;
+    margin-left: 40px;
 }
