@@ -1,1 +1,3 @@
-FROM nginx:1.21
+FROM nginx:latest
+
+RUN service nginx start
