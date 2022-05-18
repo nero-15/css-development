@@ -24,4 +24,9 @@ p.center {
 
 p.large {
     font-size: 300%;
-  }
+}
+
+h1, h2, p {
+    text-align: center;
+    color: red;
+}
