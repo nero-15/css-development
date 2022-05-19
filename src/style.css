@@ -2,6 +2,7 @@ body {
     background-image: url("toka.jpg");
     background-repeat: no-repeat;
     background-position: right top;
+    background-attachment: fixed;
 }
 div {
     background-color: green;
