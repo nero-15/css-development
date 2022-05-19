@@ -1,18 +1,20 @@
 body {
     background-image: url("toka.jpg");
-  }
+    background-repeat: no-repeat;
+    background-position: right top;
+}
 div {
     background-color: green;
-  }
-  
-  div.first {
+}
+
+div.first {
     opacity: 0.1;
-  }
-  
-  div.second {
+}
+
+div.second {
     opacity: 0.3;
-  }
-  
-  div.third {
+}
+
+div.third {
     opacity: 0.6;
-  }
+}
