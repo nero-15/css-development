@@ -6,6 +6,9 @@ body {
 }
 div {
     background-color: green;
+    width: 300px;
+    margin: auto;
+    border: 1px solid red;
 }
 
 div.first {
@@ -31,6 +34,13 @@ p.outset {border-style: outset;}
 p.none {border-style: none;}
 p.hidden {border-style: hidden;}
 p.mix {border-style: dotted dashed solid double;}
+
+p {
+    margin-top: 100px;
+    margin-bottom: 100px;
+    margin-right: 150px;
+    margin-left: 80px;
+}
 
 p.one {
     border-style: solid;
