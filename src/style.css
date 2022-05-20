@@ -9,6 +9,10 @@ div {
     width: 300px;
     margin: auto;
     border: 1px solid red;
+    padding-top: 50px;
+  padding-right: 30px;
+  padding-bottom: 50px;
+  padding-left: 80px;
 }
 
 div.first {
