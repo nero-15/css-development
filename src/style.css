@@ -6,8 +6,9 @@ body {
 }
 div {
     background-color: green;
-    margin: 70px;
-    border: 1px solid #4CAF50;
+    width: 300px;
+    margin: auto;
+    border: 1px solid red;
 }
 
 div.first {
