@@ -6,6 +6,8 @@ body {
 }
 div {
     background-color: green;
+    margin: 70px;
+    border: 1px solid #4CAF50;
 }
 
 div.first {
