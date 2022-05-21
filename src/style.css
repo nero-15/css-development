@@ -7,7 +7,8 @@ body {
 div {
     background-color: lightblue;
     border: 1px solid red;
-    width: 300px;
+    height: 200px;
+    max-width: 500px;
     padding: 25px;
     box-sizing: border-box;
 }
@@ -41,6 +42,7 @@ p {
     margin-bottom: 100px;
     margin-right: 150px;
     margin-left: 80px;
+    outline: #4CAF50 solid 10px;
 }
 
 p.one {
@@ -73,3 +75,32 @@ p.five {
     border-bottom-style: dotted;
     border-left-style: solid;
 }
+
+p.ex1 {
+    border: 1px solid black;
+    outline-style: solid;
+    outline-color: red;
+    outline-width: thin;
+  }
+  
+  p.ex2 {
+    border: 1px solid black;
+    outline-style: solid;
+    outline-color: red;
+    outline-width: medium;
+    outline-offset: 15px;
+  }
+  
+  p.ex3 {
+    border: 1px solid black;
+    outline-style: dotted;
+    outline-color: blue;
+    outline-width: thick;
+  }
+  
+  p.ex4 {
+    border: 1px solid black;
+    outline-style: outset;
+    outline-color: grey;
+    outline-width: 4px;
+  }
