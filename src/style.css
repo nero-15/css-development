@@ -92,14 +92,14 @@ p.ex1 {
   
   p.ex3 {
     border: 1px solid black;
-    outline-style: solid;
-    outline-color: red;
+    outline-style: dotted;
+    outline-color: blue;
     outline-width: thick;
   }
   
   p.ex4 {
     border: 1px solid black;
-    outline-style: solid;
-    outline-color: red;
+    outline-style: outset;
+    outline-color: grey;
     outline-width: 4px;
   }
