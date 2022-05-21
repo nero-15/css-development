@@ -88,6 +88,7 @@ p.ex1 {
     outline-style: solid;
     outline-color: red;
     outline-width: medium;
+    outline-offset: 15px;
   }
   
   p.ex3 {
