@@ -11,6 +11,7 @@ div {
     max-width: 500px;
     padding: 8px;
     box-sizing: border-box;
+    text-align: justify;
 }
 
 div.first {
@@ -128,4 +129,16 @@ p.ex1 {
   a {
     text-decoration: none;
     color: #008CBA;
+  }
+
+  p.a {
+    text-align-last: right;
+  }
+  
+  p.b {
+    text-align-last: center;
+  }
+  
+  p.c {
+    text-align-last: justify;
   }
