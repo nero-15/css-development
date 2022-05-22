@@ -110,6 +110,14 @@ p.ex1 {
     text-transform: uppercase;
     color: #4CAF50;
   }
+
+  h2 {
+    text-align: left;
+  }
+  
+  h3 {
+    text-align: right;
+  }
   
   p {
     text-indent: 50px;
