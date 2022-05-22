@@ -6,10 +6,10 @@ body {
 }
 div {
     background-color: lightblue;
-    border: 1px solid red;
+    border: 1px solid gray;
     height: 200px;
     max-width: 500px;
-    padding: 25px;
+    padding: 8px;
     box-sizing: border-box;
 }
 
@@ -103,4 +103,21 @@ p.ex1 {
     outline-style: outset;
     outline-color: grey;
     outline-width: 4px;
+  }
+
+  h1 {
+    text-align: center;
+    text-transform: uppercase;
+    color: #4CAF50;
+  }
+  
+  p {
+    text-indent: 50px;
+    text-align: justify;
+    letter-spacing: 3px;
+  }
+  
+  a {
+    text-decoration: none;
+    color: #008CBA;
   }
