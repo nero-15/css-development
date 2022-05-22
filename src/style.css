@@ -7,7 +7,7 @@ body {
 div {
     background-color: lightblue;
     border: 1px solid gray;
-    height: 200px;
+    min-height: 200px;
     max-width: 500px;
     padding: 8px;
     box-sizing: border-box;
