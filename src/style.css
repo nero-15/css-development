@@ -107,17 +107,19 @@ p.ex1 {
   }
 
   h1 {
-    text-align: center;
-    text-transform: uppercase;
-    color: #4CAF50;
+    text-decoration: overline;
   }
-
+  
   h2 {
-    text-align: left;
+    text-decoration: line-through;
   }
   
   h3 {
-    text-align: right;
+    text-decoration: underline;
+  }
+  
+  p.ex {
+    text-decoration: overline underline;
   }
   
   p {
