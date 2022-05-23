@@ -77,59 +77,35 @@ p.five {
     border-left-style: solid;
 }
 
-p.ex1 {
-    border: 1px solid black;
-    outline-style: solid;
-    outline-color: red;
-    outline-width: thin;
-  }
-  
-  p.ex2 {
-    border: 1px solid black;
-    outline-style: solid;
-    outline-color: red;
-    outline-width: medium;
-    outline-offset: 15px;
-  }
-  
-  p.ex3 {
-    border: 1px solid black;
-    outline-style: dotted;
-    outline-color: blue;
-    outline-width: thick;
-  }
-  
-  p.ex4 {
-    border: 1px solid black;
-    outline-style: outset;
-    outline-color: grey;
-    outline-width: 4px;
-  }
-
   h1 {
-    text-decoration-line: overline;
-    text-decoration-color: red;
+    text-decoration-line: underline;
+    text-decoration-style: solid;
   }
   
   h2 {
-    text-decoration-line: line-through;
-    text-decoration-color: blue;
+    text-decoration-line: underline;
+    text-decoration-style: double;
   }
   
   h3 {
     text-decoration-line: underline;
-    text-decoration-color: green;
+    text-decoration-style: dotted;
   }
   
-  p {
-    text-decoration-line: overline underline;
-    text-decoration-color: purple;
+  p.ex1 {
+    text-decoration-line: underline;
+    text-decoration-style: dashed;
   }
   
-  p {
-    text-indent: 50px;
-    text-align: justify;
-    letter-spacing: 3px;
+  p.ex2 {
+    text-decoration-line: underline;
+    text-decoration-style: wavy;
+  }
+  
+  p.ex3 {
+    text-decoration-line: underline;
+    text-decoration-color: red;
+    text-decoration-style: wavy;
   }
   
   a {
