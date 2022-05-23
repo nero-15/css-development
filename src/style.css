@@ -130,3 +130,11 @@ h2 {
   p.capitalize {
     text-transform: capitalize;
   }
+
+  p.small {
+    line-height: 0.7;
+  }
+  
+  p.big {
+    line-height: 1.8;
+  }
