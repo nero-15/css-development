@@ -39,7 +39,7 @@ p.hidden {border-style: hidden;}
 p.mix {border-style: dotted dashed solid double;}
 
 p {
-  text-indent: 50px;
+  white-space: nowrap;
 }
 
 p.one {
