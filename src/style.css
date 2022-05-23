@@ -39,11 +39,7 @@ p.hidden {border-style: hidden;}
 p.mix {border-style: dotted dashed solid double;}
 
 p {
-    margin-top: 100px;
-    margin-bottom: 100px;
-    margin-right: 150px;
-    margin-left: 80px;
-    outline: #4CAF50 solid 10px;
+  text-indent: 50px;
 }
 
 p.one {
