@@ -73,15 +73,13 @@ p.five {
     border-left-style: solid;
 }
 
-  h1 {
-    text-decoration-line: underline;
-    text-decoration-style: solid;
-  }
-  
-  h2 {
-    text-decoration-line: underline;
-    text-decoration-style: double;
-  }
+h1 {
+  letter-spacing: 5px;
+}
+
+h2 {
+  letter-spacing: -2px;
+}
   
   h3 {
     text-decoration-line: underline;
