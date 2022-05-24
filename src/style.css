@@ -148,6 +148,7 @@ h2 {
 
   p.normal {
     font-style: normal;
+    font-weight: normal;
   }
   
   p.italic {
@@ -156,4 +157,12 @@ h2 {
   
   p.oblique {
     font-style: oblique;
+  }
+
+  p.thick {
+    font-weight: bold;
+  }
+
+  p.thicker {
+    font-weight: 900;
   }
