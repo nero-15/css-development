@@ -40,6 +40,7 @@ p.mix {border-style: dotted dashed solid double;}
 
 p {
   white-space: nowrap;
+  font-size: 0.875em; /* 14px/16=0.875em */
 }
 
 p.one {
@@ -70,10 +71,12 @@ p.five {
 h1 {
   color: white;
   text-shadow: 1px 1px 2px black, 0 0 25px blue, 0 0 5px darkblue;
+  font-size: 2.5em; /* 40px/16=2.5em */
 }
 
 h2 {
   letter-spacing: -2px;
+  font-size: 1.875em; /* 30px/16=1.875em */
 }
   
   h3 {
