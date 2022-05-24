@@ -3,7 +3,10 @@ body {
     background-repeat: no-repeat;
     background-position: right top;
     background-attachment: fixed;
+    font-family: "Sofia", sans-serif;
+    font-size: 30px;
 }
+
 div {
     background-color: lightblue;
     border: 1px solid gray;
@@ -40,6 +43,7 @@ p.mix {border-style: dotted dashed solid double;}
 
 p {
   white-space: nowrap;
+  font-size: 0.875em; /* 14px/16=0.875em */
 }
 
 p.one {
@@ -70,10 +74,16 @@ p.five {
 h1 {
   color: white;
   text-shadow: 1px 1px 2px black, 0 0 25px blue, 0 0 5px darkblue;
+  font-size: 2.5em; /* 40px/16=2.5em */
 }
+
+h1.a {font-family: "Audiowide", sans-serif;}
+h1.b {font-family: "Sofia", sans-serif;}
+h1.c {font-family: "Trirong", serif;}
 
 h2 {
   letter-spacing: -2px;
+  font-size: 1.875em; /* 30px/16=1.875em */
 }
   
   h3 {
@@ -132,4 +142,37 @@ h2 {
   
   p.big {
     line-height: 1.8;
+  }
+
+  .p1 {
+    font-family: "Times New Roman", Times, serif;
+  }
+  
+  .p2 {
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  
+  .p3 {
+    font-family: "Lucida Console", "Courier New", monospace;
+  }
+
+  p.normal {
+    font-style: normal;
+    font-weight: normal;
+  }
+  
+  p.italic {
+    font-style: italic;
+  }
+  
+  p.oblique {
+    font-style: oblique;
+  }
+
+  p.thick {
+    font-weight: bold;
+  }
+
+  p.thicker {
+    font-weight: 900;
   }
