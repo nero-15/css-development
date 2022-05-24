@@ -3,6 +3,7 @@ body {
     background-repeat: no-repeat;
     background-position: right top;
     background-attachment: fixed;
+    font-family: "Sofia", sans-serif;
 }
 div {
     background-color: lightblue;
