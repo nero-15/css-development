@@ -180,19 +180,23 @@ h2 {
   /* unvisited link */
   a:link {
     color: red;
+    background-color: yellow;
   }
 
   /* visited link */
   a:visited {
     color: green;
+    background-color: cyan;
   }
 
   /* mouse over link */
   a:hover {
     color: hotpink;
+    background-color: lightgreen;
   }
 
   /* selected link */
   a:active {
     color: blue;
+    background-color: hotpink;
   }
