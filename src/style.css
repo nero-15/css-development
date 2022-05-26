@@ -227,3 +227,7 @@ h2 {
   li {
     display: inline;
   }
+
+  span {
+    display: block;
+  }
