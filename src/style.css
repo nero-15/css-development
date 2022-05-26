@@ -223,3 +223,7 @@ h2 {
     color: darkblue;
     margin: 5px;
   }
+
+  li {
+    display: inline;
+  }
