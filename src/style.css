@@ -335,10 +335,10 @@ h2 {
     border: 1px solid #ccc;
   }
 
-  div {
+  /* div {
     float: left;
     padding: 15px; 
-  }
+  } */
   
   .div1 {
     background: red;
@@ -350,4 +350,27 @@ h2 {
   
   .div3 {
     background: green;
+  }
+
+  .div4 {
+    float: left;
+    padding: 10px;
+    border: 3px solid #73AD21;
+  }
+  
+  .div5 {
+    padding: 10px;
+    border: 3px solid red;
+  }
+  
+  .div6 {
+    float: left;
+    padding: 10px;  
+    border: 3px solid #73AD21;
+  }
+  
+  .div7 {
+    padding: 10px;
+    border: 3px solid red;
+    clear: left;
   }
