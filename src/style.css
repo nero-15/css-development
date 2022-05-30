@@ -97,10 +97,10 @@ h2 {
     text-decoration-style: wavy;
   }
   
-  a {
+  /* a {
     text-decoration: none;
     color: #008CBA;
-  }
+  } */
 
   p.a {
     text-align-last: right;
@@ -168,28 +168,28 @@ h2 {
   }
 
   /* unvisited link */
-  a:link {
+  /* a:link {
     color: red;
     background-color: yellow;
-  }
+  } */
 
   /* visited link */
-  a:visited {
+  /* a:visited {
     color: green;
     background-color: cyan;
-  }
+  } */
 
   /* mouse over link */
-  a:hover {
+  /* a:hover {
     color: hotpink;
     background-color: lightgreen;
-  }
+  } */
 
   /* selected link */
-  a:active {
+  /* a:active {
     color: blue;
     background-color: hotpink;
-  }
+  } */
 
   /* ol {
     background: #ff9999;
