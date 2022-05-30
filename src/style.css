@@ -97,10 +97,10 @@ h2 {
     text-decoration-style: wavy;
   }
   
-  a {
+  /* a {
     text-decoration: none;
     color: #008CBA;
-  }
+  } */
 
   p.a {
     text-align-last: right;
@@ -168,30 +168,30 @@ h2 {
   }
 
   /* unvisited link */
-  a:link {
+  /* a:link {
     color: red;
     background-color: yellow;
-  }
+  } */
 
   /* visited link */
-  a:visited {
+  /* a:visited {
     color: green;
     background-color: cyan;
-  }
+  } */
 
   /* mouse over link */
-  a:hover {
+  /* a:hover {
     color: hotpink;
     background-color: lightgreen;
-  }
+  } */
 
   /* selected link */
-  a:active {
+  /* a:active {
     color: blue;
     background-color: hotpink;
-  }
+  } */
 
-  ol {
+  /* ol {
     background: #ff9999;
     padding: 20px;
   }
@@ -216,7 +216,7 @@ h2 {
 
   li {
     display: inline;
-  }
+  } */
 
   span {
     display: block;
@@ -444,4 +444,42 @@ h2 {
   p.intro::first-letter {
     color: #ff0000;
     font-size: 200%;
-  } 
+  }
+
+  img {
+    opacity: 0.5;
+  }
+  
+  img:hover {
+    opacity: 1.0;
+  }
+
+  ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    width: 200px;
+    background-color: #f1f1f1;
+  }
+  
+  li a {
+    display: block;
+    color: #000;
+    padding: 8px 16px;
+    text-decoration: none;
+  }
+
+  li a:hover {
+    background-color: #555;
+    color: white;
+  }
+
+  li a.active {
+    background-color: #04AA6D;
+    color: white;
+  }
+  
+  li a:hover:not(.active) {
+    background-color: #555;
+    color: white;
+  }
