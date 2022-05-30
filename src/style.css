@@ -444,4 +444,12 @@ h2 {
   p.intro::first-letter {
     color: #ff0000;
     font-size: 200%;
-  } 
+  }
+
+  img {
+    opacity: 0.5;
+  }
+  
+  img:hover {
+    opacity: 1.0;
+  }
