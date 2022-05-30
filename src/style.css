@@ -191,7 +191,7 @@ h2 {
     background-color: hotpink;
   }
 
-  ol {
+  /* ol {
     background: #ff9999;
     padding: 20px;
   }
@@ -216,7 +216,7 @@ h2 {
 
   li {
     display: inline;
-  }
+  } */
 
   span {
     display: block;
@@ -458,4 +458,10 @@ h2 {
     list-style-type: none;
     margin: 0;
     padding: 0;
+  }
+
+  li a {
+    display: block;
+    width: 60px;
+    background-color: #dddddd;
   }
