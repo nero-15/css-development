@@ -453,3 +453,9 @@ h2 {
   img:hover {
     opacity: 1.0;
   }
+
+  ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
