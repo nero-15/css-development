@@ -436,3 +436,7 @@ h2 {
   div:hover {
     background-color: blue;
   }
+
+  p i:first-child {
+    color: blue;
+  } 
