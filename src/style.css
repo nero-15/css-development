@@ -427,3 +427,21 @@ h2 {
   div > p {
     background-color: yellow;
   }
+
+  a.highlight:hover {
+    color: #ff0000;
+    font-size: 22px;
+  } 
+
+  div:hover {
+    background-color: blue;
+  }
+
+  p i:first-child {
+    color: blue;
+  } 
+  
+  p.intro::first-letter {
+    color: #ff0000;
+    font-size: 200%;
+  } 
