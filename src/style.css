@@ -279,11 +279,11 @@ h2 {
     position: relative;
   }
   
-  img { 
+  /* img { 
     width: 100%;
     height: auto;
     opacity: 0.3;
-  }
+  } */
 
   .container {
     position: relative;
@@ -446,13 +446,13 @@ h2 {
     font-size: 200%;
   }
 
-  img {
+  /* img {
     opacity: 0.5;
   }
   
   img:hover {
     opacity: 1.0;
-  }
+  } */
 
   ul {
     list-style-type: none;
