@@ -544,3 +544,7 @@ h2 {
     padding: 15px;
     text-align: center;
   }
+
+  input {
+    width: 100%;
+  }
