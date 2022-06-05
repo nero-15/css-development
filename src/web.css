@@ -112,3 +112,10 @@ body {
     padding: 15px;
     border-image: url(https://www.w3schools.com/css/border.png) 30% round;
 }
+
+#exampleBackgroundImage1 {
+    background-image: url(https://www.w3schools.com/css/img_flwr.gif), url(https://www.w3schools.com/css/paper.gif);
+    background-position: right bottom, left top;
+    background-repeat: no-repeat, repeat;
+    padding: 15px;
+}
