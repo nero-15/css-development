@@ -119,3 +119,9 @@ body {
     background-repeat: no-repeat, repeat;
     padding: 15px;
 }
+
+.background { 
+    background: url(toka.jpg) no-repeat center fixed; 
+    background-size: cover;
+    color: white; 
+}
