@@ -153,3 +153,9 @@ body {
     background-color: red; /* For browsers that do not support gradients */
     background-image: linear-gradient(to right, red , yellow);
 }
+
+#grad3 {
+    height: 200px;
+    background-color: red; /* For browsers that do not support gradients */
+    background-image: linear-gradient(to bottom right, red, yellow);
+}
