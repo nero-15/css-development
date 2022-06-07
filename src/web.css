@@ -183,3 +183,8 @@ body {
     background-color: red; /* For browsers that do not support gradients */
     background-image: linear-gradient(to right, red, orange, yellow, green, blue, indigo, violet);
 }
+
+#grad8 {
+    height: 200px;
+    background-image: linear-gradient(to right, rgba(255,0,0,0), rgba(255,0,0,1));
+}
