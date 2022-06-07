@@ -159,3 +159,21 @@ body {
     background-color: red; /* For browsers that do not support gradients */
     background-image: linear-gradient(to bottom right, red, yellow);
 }
+
+#grad4 {
+    height: 200px;
+    background-color: red; /* For browsers that do not support gradients */
+    background-image: linear-gradient(red, yellow, green);
+}
+
+#grad5 {
+    height: 200px;
+    background-color: red; /* For browsers that do not support gradients */
+    background-image: linear-gradient(red, orange, yellow, green, blue, indigo, violet);
+}
+
+#grad6 {
+    height: 200px;
+    background-color: red; /* For browsers that do not support gradients */
+    background-image: linear-gradient(red 10%, green 85%, blue 90%);
+}
