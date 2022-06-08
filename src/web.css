@@ -223,3 +223,19 @@ body {
     background-color: red; /* For browsers that do not support gradients */
     background-image: conic-gradient(red, yellow, green, blue, black);
 }
+
+#grad14 {
+    height: 200px;
+    width: 200px;
+    background-color: red; /* For browsers that do not support gradients */
+    background-image: conic-gradient(red, yellow, green, blue, black);
+    border-radius: 50%;
+}
+
+#grad15 {
+    height: 200px;
+    width: 200px;
+    background-color: red; /* For browsers that do not support gradients */
+    background-image: conic-gradient(red 0deg, red 90deg, yellow 90deg, yellow 180deg, green 180deg, green 270deg, blue 270deg);
+    border-radius: 50%;
+}
