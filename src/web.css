@@ -240,6 +240,10 @@ body {
     border-radius: 50%;
 }
 
-.shadows h1 {
+.shadows h1{
     text-shadow: 2px 2px 5px red;
+}
+
+.shadows .text_shadow1 {
+    text-shadow: 0 0 3px #FF0000, 0 0 5px #0000FF;
 }
