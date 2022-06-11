@@ -288,3 +288,25 @@ div.header {
 div.container {
     padding: 10px;
 }
+
+p.test1 {
+    white-space: nowrap; 
+    width: 200px; 
+    border: 1px solid #000000;
+    overflow: hidden;
+    text-overflow: clip;
+}
+
+p.test2 {
+    white-space: nowrap; 
+    width: 200px; 
+    border: 1px solid #000000;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+p.test1:hover,
+p.test2:hover
+{
+    overflow: visible;
+}
