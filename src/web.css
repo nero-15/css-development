@@ -335,3 +335,12 @@ p.test3 {
 .translate div#myDiv {
     transform: rotate(20deg);
 }
+
+.translate .scale {
+    margin: 150px;
+    width: 200px;
+    height: 100px;
+    background-color: yellow;
+    border: 1px solid black;
+    transform: scale(2,3);
+}
