@@ -337,6 +337,10 @@ p.test3 {
     transform: skew(20deg,10deg);
 }
 
+.translate #rotateZ {
+    transform: rotateZ(90deg);
+}
+
 .translate .scale {
     margin: 150px;
     width: 200px;
