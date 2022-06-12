@@ -333,7 +333,8 @@ p.test3 {
 }
 
 .translate div#myDiv {
-    transform: rotate(20deg);
+    /* transform: rotate(20deg); */
+    transform: skew(20deg,10deg);
 }
 
 .translate .scale {
@@ -343,4 +344,12 @@ p.test3 {
     background-color: yellow;
     border: 1px solid black;
     transform: scale(2,3);
+}
+
+div#myDiv1 {
+    transform: matrix(1, -0.3, 0, 1, 0, 0);
+}
+
+div#myDiv2 {
+    transform: matrix(1, 0, 0.5, 1, 150, 0);
 }
