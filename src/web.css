@@ -337,6 +337,10 @@ p.test3 {
     transform: skew(20deg,10deg);
 }
 
+.translate #rotateZ {
+    transform: rotateZ(90deg);
+}
+
 .translate .scale {
     margin: 150px;
     width: 200px;
@@ -352,4 +356,17 @@ div#myDiv1 {
 
 div#myDiv2 {
     transform: matrix(1, 0, 0.5, 1, 150, 0);
+}
+
+.transition div {
+    width: 100px;
+    height: 100px;
+    background: red;
+    transition: width 2s, height 2s, transform 2s;
+}
+
+.transition div:hover {
+    width: 300px;
+    height: 300px;
+    transform: rotate(180deg);
 }
