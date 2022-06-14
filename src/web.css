@@ -379,6 +379,7 @@ div#myDiv2 {
     animation-name: example;
     animation-duration: 4s;
     animation-delay: 2s;
+    animation-iteration-count: 3;
 }
 
 @keyframes example {
