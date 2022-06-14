@@ -379,8 +379,8 @@ div#myDiv2 {
     animation-name: example;
     animation-duration: 4s;
     animation-delay: 2s;
-    animation-iteration-count: alternate;
-    animation-direction: reverse;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
 }
 
 @keyframes example {
