@@ -383,6 +383,12 @@ div#myDiv2 {
     animation-direction: alternate;
 }
 
+.animation #div1 {animation-timing-function: linear;}
+.animation #div2 {animation-timing-function: ease;}
+.animation #div3 {animation-timing-function: ease-in;}
+.animation #div4 {animation-timing-function: ease-out;}
+.animation #div5 {animation-timing-function: ease-in-out;}
+
 @keyframes example {
     0%   {background-color:red; left:0px; top:0px;}
     25%  {background-color:yellow; left:200px; top:0px;}
