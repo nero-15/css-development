@@ -435,6 +435,11 @@ div#myDiv2 {
     visibility: visible;
 }
 
-.images img {
+.images img.circle{
     border-radius: 50%;
+}
+
+.images img.responsive{
+    max-width: 100%;
+    height: auto;
 }
