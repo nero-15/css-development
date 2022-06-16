@@ -434,3 +434,7 @@ div#myDiv2 {
 .tooltip:hover .tooltiptext {
     visibility: visible;
 }
+
+.images img {
+    border-radius: 8px;
+}
