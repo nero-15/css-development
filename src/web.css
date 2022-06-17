@@ -461,3 +461,16 @@ div#myDiv2 {
 .saturate {filter: saturate(7);}
 .sepia {filter: sepia(100%);}
 .shadow {filter: drop-shadow(8px 8px 10px green);}
+
+.objectFit img {
+    width: 200px;
+    height: 300px;
+    object-fit: cover;
+}
+
+.mask1 {
+    -webkit-mask-image: url(https://www.w3schools.com/css/w3logo.png);
+    mask-image: url(https://www.w3schools.com/css/w3logo.png);
+    -webkit-mask-repeat: no-repeat;
+    mask-repeat: no-repeat;    
+}
