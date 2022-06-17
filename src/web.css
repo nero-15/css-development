@@ -461,3 +461,9 @@ div#myDiv2 {
 .saturate {filter: saturate(7);}
 .sepia {filter: sepia(100%);}
 .shadow {filter: drop-shadow(8px 8px 10px green);}
+
+.objectFit img {
+    width: 200px;
+    height: 300px;
+    object-fit: cover;
+}
