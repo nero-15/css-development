@@ -538,3 +538,8 @@ div#myDiv2 {
     color: white;
 }
 
+.disabled {
+    opacity: 0.6;
+    cursor: not-allowed;
+}
+
