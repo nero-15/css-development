@@ -552,11 +552,14 @@ div#myDiv2 {
     float: left;
     padding: 8px 16px;
     text-decoration: none;
+    border-radius: 5px;
+    transition: background-color .3s;
 }
 
 .pagination a.active {
     background-color: #4CAF50;
     color: white;
+    border-radius: 5px;
 }
 
 .pagination a:hover:not(.active) {background-color: #ddd;}
