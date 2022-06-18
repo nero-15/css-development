@@ -563,3 +563,13 @@ div#myDiv2 {
 }
 
 .pagination a:hover:not(.active) {background-color: #ddd;}
+
+body {
+    background-color: pink;
+}
+
+@media screen and (min-width: 800px) {
+    body {
+        background-color: lightgreen;
+    }
+}
