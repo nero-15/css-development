@@ -564,7 +564,7 @@ div#myDiv2 {
 
 .pagination a:hover:not(.active) {background-color: #ddd;}
 
-body {
+/* body {
     background-color: pink;
 }
 
@@ -572,4 +572,4 @@ body {
     body {
         background-color: lightgreen;
     }
-}
+} */
